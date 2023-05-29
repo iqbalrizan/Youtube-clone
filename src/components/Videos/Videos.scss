@@ -1,0 +1,27 @@
+.videolist {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 10px;
+}
+@media screen and (max-width:800px) {
+    .videolist {
+        display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 10px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .videolist {
+        display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 10px;
+    }
+    
+}

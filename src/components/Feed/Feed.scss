@@ -1,0 +1,35 @@
+.feed {
+  
+    display: flex;
+    height: 100vh;
+    .sidebar {
+        width: 20%;
+        border-right: 1px solid gray;
+    }
+    .mainbar {
+        width: 80%;
+        h2 {
+            color: rgb(0, 0, 0);
+            font-weight: 900;
+            padding: 10px;
+            span {
+                color: red;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .sidebar {
+        width: 30% !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .sidebar {
+        width: 40% !important;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}

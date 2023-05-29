@@ -1,0 +1,33 @@
+.channelcard {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    .thumbnail {
+        height: 70%;
+        width: 100%;
+        border-radius: 50%;
+        img {
+            width: 100%;
+            height: 100%;
+           border-radius: 50%;
+        }
+    }
+    .desc {
+        overflow: hidden;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .desc-channel {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}

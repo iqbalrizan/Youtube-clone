@@ -1,0 +1,41 @@
+.side {
+    background-color: white;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    h3 {
+        
+        font-weight: bolder;
+        font-size: 24px;
+        span {
+            color: #ff0000;
+            padding-left: 5px;
+        }
+    }
+    button {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
+        background-color: rgb(133, 133, 133);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    button:hover {
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:900px) {
+    h3 {
+        font-size: 20px !important;
+    }
+}

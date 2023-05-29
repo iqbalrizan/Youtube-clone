@@ -1,0 +1,32 @@
+.videocard {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    .thumbnail {
+        height: 70%;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            border-top-right-radius: 10px ;
+            border-top-left-radius: 10px;
+            background-size: cover;
+        }
+    }
+    .desc {
+        overflow: hidden;
+        padding: 10px;
+    }
+    .desc-channel {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .desc-channel:hover {
+        text-decoration: underline;
+    }
+}
+// .videocard:hover {
+//     border: 2px solid red;
+// }

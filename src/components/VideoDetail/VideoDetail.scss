@@ -1,0 +1,63 @@
+.videodetail {
+    padding: 30px 80px;
+    .reactplayer {
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .content {
+        margin: 30px;
+        display: flex;
+        gap: 20px;
+        .channeldesc {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            .channeltitle {
+                font-size: 26px;
+                font-weight: 900;
+            }
+            .channelname {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin-top: 20px;
+            }
+        }
+        .channelcount {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            font-weight: 100;
+            p {
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width:800px) {
+
+    .videodetail{
+        padding: 20px;
+        .content {
+            display: flex;
+            flex-direction: column;
+            margin: 10px !important;
+            .channeldesc {
+                width: 100%;
+            }
+            .channelcount {
+               
+                display: flex !important;
+                justify-content: flex-start !important;
+            }
+        }
+
+    }
+}
